@@ -6,7 +6,7 @@ body{
     height: 200px;
     position: relative;
     margin: 100px;
-    background: red;
+    background: blue;
     animation: pulse 1s infinite alternate;
   }
   
@@ -16,7 +16,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: red;
+    background: blue;
   }
   
   .circle {
@@ -24,7 +24,7 @@ body{
     height: 200px;
     border-radius: 50%;
     position: absolute;
-    background: red;
+    background: blue;
   }
   
   .top {
@@ -45,6 +45,6 @@ body{
       width: 225px;
   }
   @keyframes pulse {
-    0%   {transform: scale(0.9) rotate(-135deg);}
-    100% {transform: scale(1.1) rotate(-135deg);}
+    0%   {transform: scale(0.9) rotate(-145deg);}
+    100% {transform: scale(1.1) rotate(-125deg);}
   }
